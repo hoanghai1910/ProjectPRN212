@@ -1,9 +1,9 @@
 -- Create the database
-CREATE DATABASE Project_7;
+CREATE DATABASE MyShoesShop;
 GO
 
 -- Use the newly created database
-USE Project_7;
+USE MyShoesShop;
 GO
 
 -- Create the Cards table
@@ -50,7 +50,7 @@ CREATE TABLE OrderDetail (
     OrderID INT,
     ShoesID INT,
     Quantity INT NOT NULL,
-    Price DECIMAL(10, 2) NOT NULL,
+    Price INT NOT NULL,
     PRIMARY KEY (OrderID, ShoesID),
     FOREIGN KEY (OrderID) REFERENCES [Order](OrderID),
     FOREIGN KEY (ShoesID) REFERENCES Shoes(ShoesID)
