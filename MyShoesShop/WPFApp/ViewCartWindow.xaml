@@ -1,0 +1,45 @@
+﻿<Window x:Class="WPFApp.ViewCartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ViewCartWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox Name="lstCartItems" Margin="10" Background="WhiteSmoke" BorderBrush="#CCCCCC" BorderThickness="1"
+                 ScrollViewer.VerticalScrollBarVisibility="Auto" SelectionChanged="lstCartItems_SelectionChanged"
+                 HorizontalContentAlignment="Stretch">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="#CCCCCC" BorderThickness="1" Margin="5" Padding="10">
+                        <Grid HorizontalAlignment="Stretch">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Text="{Binding Shoes.ShoesName}" FontWeight="Bold" FontSize="18" Grid.Column="0" VerticalAlignment="Center"/>
+
+                            <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" Margin="10,0">
+                                <TextBlock Text="Quantity:" VerticalAlignment="Center"/>
+                                <TextBox Width="50" Text="{Binding Path=Quantity, Mode=TwoWay}" VerticalAlignment="Center"
+                                         HorizontalAlignment="Center" Margin="5"/>
+                            </StackPanel>
+
+                            <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" Margin="10,0">
+                                <TextBlock Text="Price:" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Shoes.Price, StringFormat='{}{0:C}'}"
+                                           VerticalAlignment="Center" Margin="5"/>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10">
+            <Button Content="Go Back" Margin="10" Click="btnGoBack_Click" Name="btnGoBack"/>
+            <Button Content="Remove Selected" Margin="10" Click="btnRemove_Click"/>
+            <Button Content="Update Cart" Margin="10" Click="btnUpdateCart_Click"/>
+            <Button Content="Checkout" Margin="10" Click="btnCheckout_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

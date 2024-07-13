@@ -20,6 +20,7 @@ CREATE TABLE Category (
     CategoryID INT PRIMARY KEY IDENTITY(1,1),
     CategoryName NVARCHAR(50) NOT NULL
 );
+
 CREATE TABLE Brand (
     BrandID INT PRIMARY KEY IDENTITY(1,1),
     BrandName NVARCHAR(50) NOT NULL
@@ -38,6 +39,32 @@ CREATE TABLE Shoes (
 	FOREIGN KEY (BrandID) REFERENCES Brand(BrandID)
 );
 
+INSERT INTO Shoes (ShoesName, CategoryID, BrandID, Size, Color, Price, StockQuantity)
+VALUES ('Air Max 270', 
+        (SELECT CategoryID FROM Category WHERE CategoryName = 'Sneakers'), 
+        (SELECT BrandID FROM Brand WHERE BrandName = 'Nike'), 
+        10.5, 'Black', 150, 100),
+       
+       ('UltraBoost', 
+        (SELECT CategoryID FROM Category WHERE CategoryName = 'Running Shoes'), 
+        (SELECT BrandID FROM Brand WHERE BrandName = 'Adidas'), 
+        9.0, 'White', 180, 75),
+       
+       ('Classic Suede', 
+        (SELECT CategoryID FROM Category WHERE CategoryName = 'Casual Shoes'), 
+        (SELECT BrandID FROM Brand WHERE BrandName = 'Puma'), 
+        8.0, 'Blue', 100, 50),
+       
+       ('Zig Kinetica', 
+        (SELECT CategoryID FROM Category WHERE CategoryName = 'Sports Shoes'), 
+        (SELECT BrandID FROM Brand WHERE BrandName = 'Reebok'), 
+        11.0, 'Red', 120, 80),
+       
+       ('HOVR Phantom', 
+        (SELECT CategoryID FROM Category WHERE CategoryName = 'Running Shoes'), 
+        (SELECT BrandID FROM Brand WHERE BrandName = 'Under Armour'), 
+        10.0, 'Gray', 140, 60);
+
 CREATE TABLE [Order] (
     OrderID INT PRIMARY KEY IDENTITY(1,1),
     OrderDate DATETIME NOT NULL,
@@ -55,4 +82,23 @@ CREATE TABLE OrderDetail (
     FOREIGN KEY (OrderID) REFERENCES [Order](OrderID),
     FOREIGN KEY (ShoesID) REFERENCES Shoes(ShoesID)
 );
+
+INSERT INTO Customer (CustomerName, Email, Password, PhoneNumber, Address)
+VALUES ('John Doe', 'congminh23092004@gmail.com', '23092004', '123-456-7890', '123 Main St, City, Country');
+
+INSERT INTO Brand (BrandName)
+VALUES ('Nike'),
+       ('Adidas'),
+       ('Puma'),
+       ('Reebok'),
+       ('Under Armour');
+
+INSERT INTO Category (CategoryName)
+VALUES ('Sneakers'),
+       ('Running Shoes'),
+       ('Boots'),
+       ('Sandals'),
+       ('Formal Shoes'),
+       ('Casual Shoes'),
+       ('Sports Shoes');
 
