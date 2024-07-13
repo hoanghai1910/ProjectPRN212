@@ -4440,11 +4440,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj"
+            "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj": {
+              "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj"
             },
-            "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\DataAccessLayer.csproj"
             }
           }
         }
@@ -4502,5 +4502,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\Repositories\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
