@@ -153,3 +153,9 @@ C:\Users\ASUS\Desktop\ProjectPRN212\MyShoesShop\WPFApp\obj\Debug\net8.0-windows\
 C:\Users\ASUS\Desktop\ProjectPRN212\MyShoesShop\WPFApp\obj\Debug\net8.0-windows\MainCustomerWindow.baml
 C:\Users\ASUS\Desktop\ProjectPRN212\MyShoesShop\WPFApp\obj\Debug\net8.0-windows\ViewCartWindow.baml
 C:\Users\ASUS\Desktop\ProjectPRN212\MyShoesShop\WPFApp\obj\Debug\net8.0-windows\ViewCartWindow.g.cs
+C:\Users\ASUS\Desktop\ProjectPRN212\MyShoesShop\WPFApp\obj\Debug\net8.0-windows\CheckoutWindow.baml
+C:\Users\ASUS\Desktop\ProjectPRN212\MyShoesShop\WPFApp\obj\Debug\net8.0-windows\CheckoutWindow.g.cs
+C:\Users\ASUS\Desktop\ProjectPRN212\MyShoesShop\WPFApp\obj\Debug\net8.0-windows\ViewOrderHistory.g.cs
+C:\Users\ASUS\Desktop\ProjectPRN212\MyShoesShop\WPFApp\obj\Debug\net8.0-windows\ViewOrderHistory.baml
+C:\Users\ASUS\Desktop\ProjectPRN212\MyShoesShop\WPFApp\obj\Debug\net8.0-windows\ViewOrderDetailDialog.g.cs
+C:\Users\ASUS\Desktop\ProjectPRN212\MyShoesShop\WPFApp\obj\Debug\net8.0-windows\ViewOrderDetailDialog.baml

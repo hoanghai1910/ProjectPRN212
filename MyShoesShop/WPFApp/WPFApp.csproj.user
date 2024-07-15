@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="CheckoutWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="LoginWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -19,8 +22,17 @@
     <Compile Update="ViewCartWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ViewOrderDetailDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewOrderHistory.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="CheckoutWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="LoginWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -31,6 +43,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ViewCartWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewOrderDetailDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewOrderHistory.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="WPFApp.ViewOrderDetailDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFApp"
+        mc:Ignorable="d"
+        Title="ViewOrderDetailDialog" Height="450" Width="800">
+    <Grid>
+        <DataGrid Name="dgOrderDetails" AutoGenerateColumns="False" CanUserAddRows="False" Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Shoes Name" Binding="{Binding Shoes.ShoesName}" Width="*" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="*" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Price" Binding="{Binding Price, StringFormat=\{0:C\}}" Width="*" IsReadOnly="True"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

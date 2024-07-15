@@ -25,24 +25,55 @@ namespace WPFApp
         public ViewCartWindow(Customer sessionCustomer, List<ShoppingCart> shopCart)
         {
             InitializeComponent();
-            lstCartItems.ItemsSource = shopCart;
             this.sessionCustomer = sessionCustomer;
             this.shopCart = shopCart;
-        }
-
-        private void btnUpdateCart_Click(object sender, RoutedEventArgs e)
-        {
+            lstCartItems.ItemsSource = this.shopCart;
 
         }
-
         private void btnCheckout_Click(object sender, RoutedEventArgs e)
         {
+            if (shopCart.Count == 0)
+            {
+                MessageBox.Show("Shopping Cart is empty!");
+                return;
+            }
 
+            string error = "";
+            foreach (var cartItem in shopCart)
+            {
+                // Validate and update quantity
+                if (cartItem.Quantity > cartItem.Shoes.StockQuantity)
+                {
+                    error += $"Requested quantity for {cartItem.Shoes.ShoesName} exceeds available stock ({cartItem.Shoes.StockQuantity}).\n";
+                    cartItem.Quantity = 1;
+                }
+            }
+            if (error.Length != 0)
+            {
+                MessageBox.Show(error);
+                lstCartItems.ItemsSource = null;
+                lstCartItems.ItemsSource = this.shopCart;
+                return;
+            }
+
+            CheckoutWindow checkoutWindow = new CheckoutWindow(this.sessionCustomer, this.shopCart);
+            checkoutWindow.Show();
+            this.Close();
         }
 
         private void btnRemove_Click(object sender, RoutedEventArgs e)
         {
-
+            ShoppingCart shoppingCart = lstCartItems.SelectedItem as ShoppingCart;
+            if (shoppingCart == null)
+            {
+                MessageBox.Show("Please chose an item!");
+                return;
+            }
+            this.shopCart.Remove(shoppingCart);
+            MessageBox.Show("Item has been removed!");
+            // Reset ItemsSource to update the UI
+            lstCartItems.ItemsSource = null;
+            lstCartItems.ItemsSource = this.shopCart;
         }
 
         private void btnGoBack_Click(object sender, RoutedEventArgs e)

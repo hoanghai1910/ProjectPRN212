@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|c:\\users\\asus\\desktop\\projectprn212\\myshoesshop\\wpfapp\\maincustomerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\maincustomerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|c:\\users\\asus\\desktop\\projectprn212\\myshoesshop\\wpfapp\\vieworderhistory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\vieworderhistory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|c:\\users\\asus\\desktop\\projectprn212\\myshoesshop\\wpfapp\\maincustomerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\maincustomerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|c:\\users\\asus\\desktop\\projectprn212\\myshoesshop\\wpfapp\\viewcartwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\viewcartwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EF9BF72-D85F-46D2-B74E-CA9503C1AD9A}|BusinessObject\\BusinessObjects.csproj|c:\\users\\asus\\desktop\\projectprn212\\myshoesshop\\businessobject\\shoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EF9BF72-D85F-46D2-B74E-CA9503C1AD9A}|BusinessObject\\BusinessObjects.csproj|solutionrelative:businessobject\\shoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4802339-4935-45F8-A23A-A60554754CFD}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\asus\\desktop\\projectprn212\\myshoesshop\\dataaccesslayer\\branddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4802339-4935-45F8-A23A-A60554754CFD}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\branddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EF9BF72-D85F-46D2-B74E-CA9503C1AD9A}|BusinessObject\\BusinessObjects.csproj|c:\\users\\asus\\desktop\\projectprn212\\myshoesshop\\businessobject\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EF9BF72-D85F-46D2-B74E-CA9503C1AD9A}|BusinessObject\\BusinessObjects.csproj|solutionrelative:businessobject\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|c:\\users\\asus\\desktop\\projectprn212\\myshoesshop\\wpfapp\\vieworderhistory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\vieworderhistory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,83 +18,37 @@
       "DocumentGroups": [
         {
           "DockedHeight": 278,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ShoppingCart.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\BusinessObject\\ShoppingCart.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\ShoppingCart.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\BusinessObject\\ShoppingCart.cs",
-              "RelativeToolTip": "BusinessObject\\ShoppingCart.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T15:52:31.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BrandDAO.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\BrandDAO.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\BrandDAO.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\BrandDAO.cs",
-              "RelativeToolTip": "DataAccessLayer\\BrandDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T15:52:16.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Shoe.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\BusinessObject\\Shoe.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\Shoe.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\BusinessObject\\Shoe.cs",
-              "RelativeToolTip": "BusinessObject\\Shoe.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA3wBQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T15:46:54.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ViewCartWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\WPFApp\\ViewCartWindow.xaml",
-              "RelativeDocumentMoniker": "WPFApp\\ViewCartWindow.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\WPFApp\\ViewCartWindow.xaml",
-              "RelativeToolTip": "WPFApp\\ViewCartWindow.xaml",
+              "DocumentIndex": 1,
+              "Title": "ViewOrderHistory.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\WPFApp\\ViewOrderHistory.xaml",
+              "RelativeDocumentMoniker": "WPFApp\\ViewOrderHistory.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\WPFApp\\ViewOrderHistory.xaml",
+              "RelativeToolTip": "WPFApp\\ViewOrderHistory.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-12T15:29:18.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainCustomerWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\WPFApp\\MainCustomerWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPFApp\\MainCustomerWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\WPFApp\\MainCustomerWindow.xaml.cs",
-              "RelativeToolTip": "WPFApp\\MainCustomerWindow.xaml.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAqwGkAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T13:31:36.373Z",
+              "WhenOpened": "2024-07-15T16:38:35.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainCustomerWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\WPFApp\\MainCustomerWindow.xaml",
-              "RelativeDocumentMoniker": "WPFApp\\MainCustomerWindow.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\WPFApp\\MainCustomerWindow.xaml",
-              "RelativeToolTip": "WPFApp\\MainCustomerWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-12T13:26:37.773Z"
+              "DocumentIndex": 0,
+              "Title": "ViewOrderHistory.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\WPFApp\\ViewOrderHistory.xaml.cs",
+              "RelativeDocumentMoniker": "WPFApp\\ViewOrderHistory.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\WPFApp\\ViewOrderHistory.xaml.cs",
+              "RelativeToolTip": "WPFApp\\ViewOrderHistory.xaml.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwDUAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T16:36:54.379Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 122,
+          "DockedHeight": 278,
           "SelectedChildIndex": -1,
           "Children": [
             {
