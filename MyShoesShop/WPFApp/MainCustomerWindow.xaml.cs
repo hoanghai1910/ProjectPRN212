@@ -209,5 +209,13 @@ namespace WPFApp
                 lstShoes.ItemsSource = context.Shoes.Include(s => s.Brand).Include(s => s.Category).ToList().Where(c => c.CategoryId == categoryId && c.BrandId == brandId);
             }
         }
+        private void btnProfile_Click(object sender, RoutedEventArgs e)
+        {
+            UpdateProfile updateProfile = new UpdateProfile(sessionCustomer);
+            updateProfile.Show();
+            this.Close();
+        }
+
+
     }
 }

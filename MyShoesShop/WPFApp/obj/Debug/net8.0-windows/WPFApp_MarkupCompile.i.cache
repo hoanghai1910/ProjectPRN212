@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\ASUS\Desktop\ProjectPRN212\MyShoesShop\WPFApp\obj\Debug\net8.0-windows\
+C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\WPFApp\obj\Debug\net8.0-windows\
 WPFApp
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\ASUS\Desktop\ProjectPRN212\MyShoesShop\WPFApp\App.xaml
-7-547910032
+C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\WPFApp\App.xaml
+11-507990423
 
-12-1862124872
-2472120995843
-CheckoutWindow.xaml;LoginWindow.xaml;MainCustomerWindow.xaml;RegisterDialog.xaml;ViewCartWindow.xaml;ViewOrderDetailDialog.xaml;ViewOrderHistory.xaml;
+1619971355
+247249062960
+ChangePassword.xaml;CheckoutWindow.xaml;LoginWindow.xaml;MainAdminWindow.xaml;MainCustomerWindow.xaml;RegisterDialog.xaml;ShoesAdminWindow.xaml;UpdateProfile.xaml;ViewCartWindow.xaml;ViewOrderDetailDialog.xaml;ViewOrderHistory.xaml;
 
-True
+False
 

@@ -7,16 +7,28 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ChangePassword.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="CheckoutWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="LoginWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="MainAdminWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="MainCustomerWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="RegisterDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ShoesAdminWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateProfile.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ViewCartWindow.xaml.cs">
@@ -30,16 +42,28 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="ChangePassword.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="CheckoutWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="LoginWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="MainAdminWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainCustomerWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="RegisterDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ShoesAdminWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateProfile.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ViewCartWindow.xaml">

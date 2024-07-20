@@ -2,7 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainCustomerWindow" Width="1000" Height="450">
-    <Grid Background="#f0f0f0">
+    <Grid Background="#1A1A2E">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
@@ -11,23 +11,22 @@
         </Grid.RowDefinitions>
 
         <!-- Header -->
-        <Border Grid.Row="0" Background="#333333" Padding="10">
-            <TextBlock Text="Welcome to Our Shoe Store!" FontSize="24" Foreground="White" HorizontalAlignment="Center"/>
+        <Border Grid.Row="0" Background="#0F3460" Padding="10">
+            <TextBlock Text="Big 3 Shoes Store" FontSize="24" Foreground="White" HorizontalAlignment="Center"/>
         </Border>
 
         <!-- ComboBoxes and Search Button -->
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
-            <Label Content="Brand:" VerticalAlignment="Center" Margin="5,0"/>
-            <ComboBox Name="cbBrand" Width="200" Margin="5,0" VerticalAlignment="Center"/>
-            <Label Content="Category:" VerticalAlignment="Center" Margin="5,0"/>
-            <ComboBox Name="cbCategory" Width="200" Margin="5,0" VerticalAlignment="Center"/>
-            <Button Content="Search" Margin="10,0" Click="btnSearch_Click" Name="btnSearch" Width="70"/>
+            <Label Content="Brand:" Foreground="White"/>
+            <ComboBox x:Name="cbBrand" Width="200" Margin="5,0" VerticalAlignment="Center" Background="#16213E" Foreground="#533483"/>
+            <Label Content="Category:" VerticalAlignment="Center" Margin="5,0" Foreground="White"/>
+            <ComboBox x:Name="cbCategory" Width="200" Margin="5,0" VerticalAlignment="Center" Background="#16213E" Foreground="#533483"/>
+            <Button Content="Search" Margin="10,0" Click="btnSearch_Click" x:Name="btnSearch" Width="70" Background="#533483" Foreground="White"/>
         </StackPanel>
 
         <!-- Shoes Display Area -->
-        <ListBox Grid.Row="2" Name="lstShoes" Margin="10" Background="WhiteSmoke" BorderBrush="#CCCCCC" BorderThickness="1"
-                 ScrollViewer.VerticalScrollBarVisibility="Auto" SelectionChanged="lstShoes_SelectionChanged"
-                 HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
+        <ListBox Grid.Row="2" Name="lstShoes" Margin="188,10,10,10" Background="WhiteSmoke" BorderBrush="#CCCCCC" BorderThickness="1"
+                 ScrollViewer.VerticalScrollBarVisibility="Auto" SelectionChanged="lstShoes_SelectionChanged" HorizontalContentAlignment="Stretch">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Border BorderBrush="#CCCCCC" BorderThickness="1" Margin="5" Padding="10">
@@ -86,17 +85,19 @@
 
         <!-- Quantity and Buttons Panel -->
         <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
-            <Button Content="View Order History" Margin="10,0" Click="btnViewHistory_Click" Name="btnViewHistory"/>
-            <TextBlock Text="Selected Shoe:" Margin="10,0"/>
-            <TextBox x:Name="txtSelectedShoes" Width="200" Margin="5,0" Text="{Binding SelectedItem.ShoesName, ElementName=lstShoes}" VerticalAlignment="Center" IsEnabled="False"/>
-            <TextBlock Text="Quantity:" VerticalAlignment="Center" Margin="20,0,5,0"/>
-            <TextBox x:Name="txtQuantity" Width="40" Margin="5,0" Text="1" VerticalAlignment="Center"/>
-            <Button Content="Add to Cart" Margin="10,0" Click="btnAddToCart_Click" Name="btnAddToCart"/>
-            <Button Content="View Cart" Margin="10,0" Click="btnViewCart_Click" Name="btnViewCart"/>
-            <Button Content="Checkout" Margin="10,0" Click="btnCheckout_Click" Name="btnCheckout"/>
-            <Button Content="Logout" Margin="10,0" Click="btnLogout_Click" Name="btnLogout"/>
+            <TextBlock Text="Selected Shoe:" Margin="10,0" Foreground="White"/>
+            <TextBox x:Name="txtSelectedShoes" Width="200" Margin="5,0" Text="{Binding SelectedItem.ShoesName, ElementName=lstShoes}" VerticalAlignment="Center" IsEnabled="False" Background="#16213E" Foreground="White"/>
+            <TextBlock Text="Quantity:" VerticalAlignment="Center" Margin="20,0,5,0" Foreground="White"/>
+            <TextBox x:Name="txtQuantity" Width="40" Margin="5,0" Text="1" VerticalAlignment="Center" Background="#16213E" Foreground="White"/>
+            <Button Content="Add to Cart" Margin="10,0" Click="btnAddToCart_Click" Name="btnAddToCart" Background="#533483" Foreground="White"/>
+            <Button Content="View Cart" Margin="10,0" Click="btnViewCart_Click" Name="btnViewCart" Background="#533483" Foreground="White"/>
+            <Button Content="Checkout" Margin="10,0" Click="btnCheckout_Click" Name="btnCheckout" Background="#533483" Foreground="White"/>
         </StackPanel>
 
         <TextBox x:Name="txtSelectedShoeId" Grid.Row="3" Visibility="Hidden" Text="{Binding SelectedItem.ShoesId, ElementName=lstShoes}"/>
+        <Button Content="Home" Background="White" HorizontalAlignment="Left" Margin="25,33,0,0" Grid.Row="2" VerticalAlignment="Top" Width="148" Foreground="#533483"/>
+        <Button Content="Profile" Background="#533483" HorizontalAlignment="Left" Margin="25,69,0,0" Grid.Row="2" VerticalAlignment="Top" Width="148" Click="btnProfile_Click" Foreground="White"/>
+        <Button Content="View Order History" Background="#533483" HorizontalAlignment="Left" Margin="25,109,0,0" Grid.Row="2" VerticalAlignment="Top" Width="148" Click="btnViewHistory_Click" Name="btnViewHistory" Foreground="White"/>
+        <Button Content="Logout" Background="#533483" HorizontalAlignment="Left" Margin="62,8,0,0" Grid.Row="3" VerticalAlignment="Top" Click="btnLogout_Click" Name="btnLogout" Width="74" Foreground="White"/>
     </Grid>
 </Window>

@@ -5,42 +5,110 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFApp"
         mc:Ignorable="d"
-        Title="Add Customer" Height="450" Width="800">
-    <Grid Margin="10">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
+        Title="Add Customer" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        Background="Transparent"
+        AllowsTransparency="True">
+    <Grid>
+        <Border CornerRadius="10"
+                BorderThickness="2"
+                Opacity="0.95">
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#0099FF" Offset="0"/>
+                    <GradientStop Color="#DA34AE" Offset="0.75"/>
+                    <GradientStop Color="#FF60B1E7" Offset="1"/>
+                    <GradientStop Color="#FF596FDD" Offset="0.309"/>
+                    <GradientStop Color="#FF8C57CA" Offset="0.484"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="#060531" Offset="0"/>
+                    <GradientStop Color="#FF472FDE" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
 
-        <!-- Customer Name -->
-        <Label x:Name="lbName" Content="Name:" Grid.Row="0" Grid.Column="0" Margin="5"/>
-        <TextBox x:Name="tbFullName" Grid.Row="0" Grid.Column="1" Margin="5"/>
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-        <!-- Telephone -->
-        <Label Content="Phone Number:" Grid.Row="1" Grid.Column="0" Margin="5"/>
-        <TextBox x:Name="tbTelephone" Grid.Row="1" Grid.Column="1" Margin="5"/>
+                <!-- Customer Name -->
+                <Label x:Name="lbName" Content="Name:" Grid.Row="0" Grid.Column="0" Margin="5" Foreground="White"/>
+                <TextBox x:Name="tbFullName" Grid.Row="0" Grid.Column="1" Margin="5" Background="#1E1E1E" Foreground="White" BorderBrush="Gray"/>
 
-        <!-- Email Address -->
-        <Label Content="Email:" Grid.Row="2" Grid.Column="0" Margin="5"/>
-        <TextBox x:Name="tbEmailAddress" Grid.Row="2" Grid.Column="1" Margin="5"/>
+                <!-- Telephone -->
+                <Label Content="Phone Number:" Grid.Row="1" Grid.Column="0" Margin="5" Foreground="White"/>
+                <TextBox x:Name="tbTelephone" Grid.Row="1" Grid.Column="1" Margin="5" Background="#1E1E1E" Foreground="White" BorderBrush="Gray"/>
 
-        <!-- Password -->
-        <Label Content="Password:" Grid.Row="5" Grid.Column="0" Margin="5"/>
-        <PasswordBox x:Name="pbPassword" Grid.Row="5" Grid.Column="1" Margin="5"/>
+                <!-- Email Address -->
+                <Label Content="Email:" Grid.Row="2" Grid.Column="0" Margin="5" Foreground="White"/>
+                <TextBox x:Name="tbEmailAddress" Grid.Row="2" Grid.Column="1" Margin="5" Background="#1E1E1E" Foreground="White" BorderBrush="Gray"/>
 
-        <!-- Buttons -->
-        <StackPanel Grid.Row="6" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="5">
-            <Button Content="Save" Width="75"  Height="50"  Margin="5" Name="btnSave" Click="btnSave_Click"/>
-            <Button Content="Cancel" Width="75" Height="50" Margin="5" Name="btnCancel" Click="btnCancel_Click"/>
-        </StackPanel>
+                <!-- Password -->
+                <Label Content="Password:" Grid.Row="5" Grid.Column="0" Margin="5" Foreground="White"/>
+                <PasswordBox x:Name="pbPassword" Grid.Row="5" Grid.Column="1" Margin="5" Background="#1E1E1E" Foreground="White" BorderBrush="Gray"/>
+
+                <!-- Buttons -->
+                <StackPanel Grid.Row="6" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="5">
+                    <Button Content="Save" Width="100" Height="40" Margin="5" Name="btnSave" Click="btnSave_Click">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#5F27CD"/>
+                                <Setter Property="Foreground" Value="White"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#8C57CA"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border CornerRadius="20"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <Button Content="Cancel" Width="100" Height="40" Margin="5" Name="btnCancel" Click="btnCancel_Click">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="LightSeaGreen"/>
+                                <Setter Property="Foreground" Value="White"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="SeaGreen"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border CornerRadius="20"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </Border>
     </Grid>
 </Window>

@@ -9,6 +9,7 @@ namespace Repositories
 {
     public interface IShoeRepository
     {
+        List<Shoe> GetShoes();
         Shoe GetShoeById(int id);
         void UpdateShoe(Shoe shoe);
         void AddShoe(Shoe shoe);

@@ -11,22 +11,19 @@
         Background="Transparent"
         AllowsTransparency="True">
     <Grid>
-        <Border CornerRadius="10"                    
+        <Border CornerRadius="10"
                 BorderThickness="2"
                 Opacity="0.95">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#0099FF" Offset="0"/>
+                    <GradientStop Color="#533483" Offset="0"/>
                     <GradientStop Color="#DA34AE" Offset="0.75"/>
-                    <GradientStop Color="#FF60B1E7" Offset="1"/>
-                    <GradientStop Color="#FF596FDD" Offset="0.309"/>
-                    <GradientStop Color="#FF8C57CA" Offset="0.484"/>
                 </LinearGradientBrush>
             </Border.BorderBrush>
             <Border.Background>
                 <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
-                    <GradientStop Color="#060531" Offset="0"/>
-                    <GradientStop Color="#FF472FDE" Offset="1"/>
+                    <GradientStop Color="#0F3460" Offset="0"/>
+                    <GradientStop Color="#1A1A2E" Offset="1"/>
                 </LinearGradientBrush>
             </Border.Background>
 
@@ -60,11 +57,8 @@
                              BorderThickness="0,0,0,2"
                              Height="28"
                              VerticalContentAlignment="Center"
-                             Margin="0,5,0,0">
-                        <TextBox.Background>
-                            <LinearGradientBrush></LinearGradientBrush>
-                        </TextBox.Background>
-                    </TextBox>
+                             Margin="0,5,0,0"
+                             Background="#16213E"/>
 
                     <TextBlock Text="Password"
                                Foreground="DarkGray"
@@ -82,11 +76,8 @@
                                  BorderThickness="0,0,0,2"
                                  Height="28"
                                  VerticalContentAlignment="Center"
-                                 Margin="0,5,0,0">
-                        <PasswordBox.Background>
-                            <LinearGradientBrush></LinearGradientBrush>
-                        </PasswordBox.Background>
-                    </PasswordBox>
+                                 Margin="0,5,0,0"
+                                 Background="#16213E"/>
 
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                         <Button x:Name="btnLogin"
@@ -100,10 +91,10 @@
                                 Click="btnLogin_Click">
                             <Button.Style>
                                 <Style TargetType="Button">
-                                    <Setter Property="Background" Value="#0099FF"/>
+                                    <Setter Property="Background" Value="#533483"/>
                                     <Style.Triggers>
                                         <Trigger Property="IsMouseOver" Value="True">
-                                            <Setter Property="Background" Value="#28AEED"/>
+                                            <Setter Property="Background" Value="#DA34AE"/>
                                         </Trigger>
                                     </Style.Triggers>
                                 </Style>
@@ -131,10 +122,10 @@
                                 Click="btnRegister_Click">
                             <Button.Style>
                                 <Style TargetType="Button">
-                                    <Setter Property="Background" Value="#0099FF"/>
+                                    <Setter Property="Background" Value="#533483"/>
                                     <Style.Triggers>
                                         <Trigger Property="IsMouseOver" Value="True">
-                                            <Setter Property="Background" Value="#28AEED"/>
+                                            <Setter Property="Background" Value="#DA34AE"/>
                                         </Trigger>
                                     </Style.Triggers>
                                 </Style>
@@ -165,10 +156,10 @@
                             Click="btnCancel_Click">
                         <Button.Style>
                             <Style TargetType="Button">
-                                <Setter Property="Background" Value="LightSeaGreen"/>
+                                <Setter Property="Background" Value="#0099FF"/>
                                 <Style.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="SeaGreen"/>
+                                        <Setter Property="Background" Value="#28AEED"/>
                                     </Trigger>
                                 </Style.Triggers>
                             </Style>

@@ -10,6 +10,7 @@ namespace Repositories
 {
     public class ShoeRepository : IShoeRepository
     {
+        public List<Shoe> GetShoes() => ShoeDAO.GetShoes();
         public void AddShoe(Shoe shoe) => ShoeDAO.AddShoe(shoe);
 
 

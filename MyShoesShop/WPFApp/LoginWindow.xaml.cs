@@ -57,10 +57,10 @@ namespace WPFApp
                 if (enteredEmail.Equals(adminEmail) && enteredPassword.Equals(adminPassword))
                 {
                     //Admin
-                    //MainAdminWindow mainAdminWindow = new MainAdminWindow();
-                    //mainAdminWindow.Show();
-                    //this.Close();
-                    MessageBox.Show("This is admin");
+                    MainAdminWindow mainAdminWindow = new MainAdminWindow();
+                    mainAdminWindow.Show();
+                    this.Close();
+                    //MessageBox.Show("This is admin");
 
                     return;
                 }

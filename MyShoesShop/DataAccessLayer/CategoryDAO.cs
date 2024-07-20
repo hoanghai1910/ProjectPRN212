@@ -8,7 +8,8 @@ using BusinessObjects;
 namespace DataAccessLayer
 {
     public class CategoryDAO
-    {
+    {   
+
         public static Category GetCategoryById(int id)
         {
             var db = new MyShoesShopContext();

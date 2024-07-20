@@ -4570,19 +4570,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\MSI\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\WPFApp\\WPFApp.csproj",
+      "projectUniqueName": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\WPFApp\\WPFApp.csproj",
       "projectName": "WPFApp",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\WPFApp\\WPFApp.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\WPFApp\\obj\\",
+      "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\WPFApp\\WPFApp.csproj",
+      "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\WPFApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4590,21 +4590,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj"
+            "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj": {
+              "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj"
             },
-            "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\Repositories\\Repositories.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Desktop\\ProjectPRN212\\MyShoesShop\\Repositories\\Repositories.csproj"
+            "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\Repositories\\Repositories.csproj": {
+              "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\Repositories\\Repositories.csproj"
             }
           }
         }
@@ -4662,7 +4661,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

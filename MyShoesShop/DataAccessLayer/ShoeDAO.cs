@@ -8,7 +8,12 @@ using BusinessObjects;
 namespace DataAccessLayer
 {
     public class ShoeDAO
-    {
+    {   
+        public static List<Shoe> GetShoes()
+        {
+            var db = new MyShoesShopContext();
+            return db.Shoes.ToList();
+        }
         public static Shoe GetShoeById(int id)
         {
             var db = new MyShoesShopContext();
