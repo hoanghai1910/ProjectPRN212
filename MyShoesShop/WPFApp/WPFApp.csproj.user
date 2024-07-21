@@ -13,6 +13,18 @@
     <Compile Update="CheckoutWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ConfirmDeleteDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CreateCustomerDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CreateOrderDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ManageCustomerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="LoginWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -22,10 +34,19 @@
     <Compile Update="MainCustomerWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ManageOrderWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="RegisterDialog.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ShoesAdminWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateCustomerDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateOrderDialog.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UpdateProfile.xaml.cs">
@@ -48,6 +69,18 @@
     <Page Update="CheckoutWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="ConfirmDeleteDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CreateCustomerDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CreateOrderDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ManageCustomerWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="LoginWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -57,10 +90,19 @@
     <Page Update="MainCustomerWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="ManageOrderWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="RegisterDialog.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ShoesAdminWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateCustomerDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateOrderDialog.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UpdateProfile.xaml">

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BusinessObjects;
+using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer
 {
@@ -13,6 +14,12 @@ namespace DataAccessLayer
         {
             var db = new MyShoesShopContext();
             return db.Customers.FirstOrDefault(c => c.Email.Equals(email));
+        }
+
+        public static List<Customer> GetCustomers()
+        {
+            var db = new MyShoesShopContext();
+            return db.Customers.AsNoTracking().ToList();
         }
 
         public static void UpdateCustomer(Customer customer)

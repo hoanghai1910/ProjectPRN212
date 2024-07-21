@@ -4570,19 +4570,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MSI\\.nuget\\packages\\": {}
+    "C:\\Users\\phoan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\WPFApp\\WPFApp.csproj",
+      "projectUniqueName": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\WPFApp\\WPFApp.csproj",
       "projectName": "WPFApp",
-      "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\WPFApp\\WPFApp.csproj",
-      "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\WPFApp\\obj\\",
+      "projectPath": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\WPFApp\\WPFApp.csproj",
+      "packagesPath": "C:\\Users\\phoan\\.nuget\\packages\\",
+      "outputPath": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\WPFApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\phoan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4590,20 +4595,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj": {
-              "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj"
+            "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj": {
+              "projectPath": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj"
             },
-            "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\Repositories\\Repositories.csproj": {
-              "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\Repositories\\Repositories.csproj"
+            "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\Repositories\\Repositories.csproj": {
+              "projectPath": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\Repositories\\Repositories.csproj"
             }
           }
         }

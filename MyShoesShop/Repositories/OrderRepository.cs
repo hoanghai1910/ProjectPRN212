@@ -17,6 +17,8 @@ namespace Repositories
 
         public Order GetOrderById(int id) => OrderDAO.GetOrderById(id);
 
+        public List<Order> GetOrders() => OrderDAO.GetOrders();
+
         public void UpdateOrder(Order order) => OrderDAO.UpdateOrder(order);
 
     }

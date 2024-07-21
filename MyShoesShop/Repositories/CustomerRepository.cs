@@ -18,6 +18,6 @@ namespace Repositories
         public void AddCustomer(Customer customer) => CustomerDAO.AddCustomer(customer);
         public void DeleteCustomer(Customer customer) => CustomerDAO.DeleteCustomer(customer);
 
-
+        public List<Customer> GetCustomers() => CustomerDAO.GetCustomers();
     }
 }

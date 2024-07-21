@@ -25,7 +25,9 @@ namespace WPFApp
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
-        {            
+        {
+            new CustomerAdminWindow().Show();
+            this.Close();
         }
 
         private void Shoes_Click(object sender, RoutedEventArgs e)
@@ -37,7 +39,8 @@ namespace WPFApp
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-
+            new ManageOrderWindow().Show();
+            this.Close();
         }
 
         private void btnLogout_Click(object sender, RoutedEventArgs e)

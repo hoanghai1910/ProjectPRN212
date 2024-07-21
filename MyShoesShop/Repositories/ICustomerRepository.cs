@@ -10,6 +10,7 @@ namespace Repositories
     public interface ICustomerRepository
     {
         Customer GetCustomerByEmail(string email);
+        List<Customer> GetCustomers();
         void UpdateCustomer(Customer customer);
         void AddCustomer(Customer customer);
         void DeleteCustomer(Customer customer);

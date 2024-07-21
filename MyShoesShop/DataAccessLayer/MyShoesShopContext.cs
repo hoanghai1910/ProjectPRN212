@@ -40,6 +40,7 @@ public partial class MyShoesShopContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseSqlServer(GetConnectionString());
+        optionsBuilder.EnableSensitiveDataLogging();
     }
 
 
@@ -92,6 +93,11 @@ public partial class MyShoesShopContext : DbContext
             entity.HasOne(d => d.Customer).WithMany(p => p.Orders)
                 .HasForeignKey(d => d.CustomerId)
                 .HasConstraintName("FK__Order__CustomerI__412EB0B6");
+
+            //entity.HasMany(o => OrderDetails)
+            //.WithOne(od => od.Order)
+            //.HasForeignKey(od => od.OrderId)
+            //.OnDelete(DeleteBehavior.Cascade);
         });
 
         modelBuilder.Entity<OrderDetail>(entity =>
@@ -105,7 +111,7 @@ public partial class MyShoesShopContext : DbContext
 
             entity.HasOne(d => d.Order).WithMany(p => p.OrderDetails)
                 .HasForeignKey(d => d.OrderId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
+                .OnDelete(DeleteBehavior.Cascade)
                 .HasConstraintName("FK__OrderDeta__Order__440B1D61");
 
             entity.HasOne(d => d.Shoes).WithMany(p => p.OrderDetails)
