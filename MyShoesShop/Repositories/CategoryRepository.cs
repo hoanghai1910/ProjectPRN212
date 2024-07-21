@@ -8,12 +8,16 @@ using DataAccessLayer;
 
 namespace Repositories
 {
-    public class CategoryRepository:ICategoryRepository
+    public class CategoryRepository : ICategoryRepository
     {
          public void AddCategory(Category category) => CategoryDAO.AddCategory(category);
 
         public void DeleteCategory(Category category) => CategoryDAO.DeleteCategory(category);
 
+        public List<Category> GetAll()
+        {
+            return CategoryDAO.GetCategories();
+        }
 
         public Category GetCategoryById(int id) => CategoryDAO.GetCategoryById(id);
 

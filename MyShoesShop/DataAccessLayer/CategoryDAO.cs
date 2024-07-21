@@ -8,8 +8,22 @@ using BusinessObjects;
 namespace DataAccessLayer
 {
     public class CategoryDAO
-    {   
-
+    {
+        public static List<Category> GetCategories()
+        {
+            var categories = new List<Category>();
+            try
+            {
+                var db = new MyShoesShopContext();
+               categories = db.Categories.ToList();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            
+            return categories;
+        }
         public static Category GetCategoryById(int id)
         {
             var db = new MyShoesShopContext();

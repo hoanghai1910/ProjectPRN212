@@ -9,6 +9,7 @@ namespace Repositories
 {
     public interface IBrandRepository
     {
+        List<Brand> GetBrands();
         Brand GetBrandById(int id);
         void UpdateBrand(Brand brand);
         void AddBrand(Brand brand);

@@ -8,7 +8,22 @@ using BusinessObjects;
 namespace DataAccessLayer
 {
     public class BrandDAO
-    {
+    { 
+        public static List<Brand> GetBrands()
+        {
+            var brands = new List<Brand>();
+            try
+            {
+                var db = new MyShoesShopContext();
+                brands = db.Brands.ToList();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+
+            return brands;
+        }
         public static Brand GetBrandById(int id)
         {
             var db = new MyShoesShopContext();
