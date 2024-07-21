@@ -4,17 +4,23 @@
 winexe
 C#
 .cs
-C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\WPFApp\obj\Debug\net8.0-windows\
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\WPFApp\obj\Debug\net8.0-windows\
 WPFApp
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\WPFApp\App.xaml
-11-507990423
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\WPFApp\App.xaml
+18-1540731277
 
+<<<<<<< HEAD
 142093795608
 247903260674
 ChangePassword.xaml;CheckoutWindow.xaml;LoginWindow.xaml;MainAdminWindow.xaml;MainCustomerWindow.xaml;RegisterDialog.xaml;ShoesAdminWindow.xaml;UpdateProfile.xaml;ViewCartWindow.xaml;ViewOrderDetailDialog.xaml;ViewOrderHistory.xaml;
+=======
+21-22882513
+247261583837
+ChangePassword.xaml;CheckoutWindow.xaml;ConfirmDeleteDialog.xaml;CreateCustomerDialog.xaml;CreateOrderDialog.xaml;LoginWindow.xaml;MainAdminWindow.xaml;MainCustomerWindow.xaml;ManageCustomerWindow.xaml;ManageOrderWindow.xaml;RegisterDialog.xaml;ShoesAdminWindow.xaml;UpdateCustomerDialog.xaml;UpdateOrderDialog.xaml;UpdateProfile.xaml;ViewCartWindow.xaml;ViewOrderDetailDialog.xaml;ViewOrderHistory.xaml;
+>>>>>>> 5aad18a08b75a4f4f8e7d9e7bfb22058b74b6c87
 
 False
 

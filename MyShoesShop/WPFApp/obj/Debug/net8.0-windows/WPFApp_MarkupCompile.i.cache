@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\WPFApp\App.xaml
-11-507990423
+18-1540731277
 
-1619971355
-247903260674
-ChangePassword.xaml;CheckoutWindow.xaml;LoginWindow.xaml;MainAdminWindow.xaml;MainCustomerWindow.xaml;RegisterDialog.xaml;ShoesAdminWindow.xaml;UpdateProfile.xaml;ViewCartWindow.xaml;ViewOrderDetailDialog.xaml;ViewOrderHistory.xaml;
+23-2096706766
+2001075847073
+ChangePassword.xaml;CheckoutWindow.xaml;ConfirmDeleteDialog.xaml;CreateCustomerDialog.xaml;CreateOrderDialog.xaml;LoginWindow.xaml;MainAdminWindow.xaml;MainCustomerWindow.xaml;ManageCustomerWindow.xaml;ManageOrderWindow.xaml;RegisterDialog.xaml;ShoesAdminWindow.xaml;UpdateCustomerDialog.xaml;UpdateOrderDialog.xaml;UpdateProfile.xaml;ViewCartWindow.xaml;ViewOrderDetailDialog.xaml;ViewOrderHistory.xaml;
 
 False
 

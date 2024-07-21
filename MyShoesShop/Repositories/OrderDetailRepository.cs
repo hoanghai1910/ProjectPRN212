@@ -15,6 +15,7 @@ namespace Repositories
 
         public void DeleteOrderDetail(OrderDetail orderDetail) => OrderDetailDAO.DeleteOrderDetail(orderDetail);
 
+        public List<OrderDetail> getOrderDetails() => OrderDetailDAO.GetOrderDetails();
 
         public void UpdateOrderDetail(OrderDetail orderDetail) => OrderDetailDAO.UpdateOrderDetail(orderDetail);
 

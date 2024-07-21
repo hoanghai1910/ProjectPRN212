@@ -148,7 +148,7 @@ namespace WPFApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPFApp;component/maincustomerwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPFApp;V1.0.0.0;component/maincustomerwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MainCustomerWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

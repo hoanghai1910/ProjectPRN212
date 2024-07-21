@@ -68,7 +68,7 @@ namespace WPFApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPFApp;component/viewcartwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPFApp;V1.0.0.0;component/viewcartwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ViewCartWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

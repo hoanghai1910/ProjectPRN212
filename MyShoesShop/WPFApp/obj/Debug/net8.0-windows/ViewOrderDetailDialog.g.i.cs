@@ -61,7 +61,7 @@ namespace WPFApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPFApp;component/vieworderdetaildialog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPFApp;V1.0.0.0;component/vieworderdetaildialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ViewOrderDetailDialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

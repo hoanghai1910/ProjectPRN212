@@ -57,7 +57,6 @@ namespace WPFApp
                 CustomerId = sessionCustomer.CustomerId,
                 TotalAmount = total
             };
-            orderRepository.AddOrder(order);
             //Add orderDetail to DB
             foreach (var cart in shopCart)
             {
@@ -73,8 +72,10 @@ namespace WPFApp
                 shoe.StockQuantity -= cart.Quantity;
                 
                 shoeRepository.UpdateShoe(shoe);
-                orderDetailRepository.AddOrderDetail(orderDetail);
+                order.OrderDetails.Add(orderDetail);
+                //orderDetailRepository.AddOrderDetail(orderDetail);
             }
+            orderRepository.AddOrder(order);
             MessageBox.Show("Payment complete!");
             MainCustomerWindow mainCustomerWindow = new MainCustomerWindow(sessionCustomer);
             mainCustomerWindow.Show();

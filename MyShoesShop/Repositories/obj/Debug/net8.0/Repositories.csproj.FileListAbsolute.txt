@@ -40,3 +40,24 @@ C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\Repositories\obj\Debu
 C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\Repositories\obj\Debug\net8.0\Repositories.pdb
 C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\Repositories\obj\Debug\net8.0\Repositories.genruntimeconfig.cache
 C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\bin\Debug\net8.0\appsettings.json
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\bin\Debug\net8.0\Repositories.deps.json
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\bin\Debug\net8.0\Repositories.runtimeconfig.json
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\bin\Debug\net8.0\Repositories.dll
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\bin\Debug\net8.0\Repositories.pdb
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\bin\Debug\net8.0\BusinessObjects.dll
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\bin\Debug\net8.0\DataAccessLayer.dll
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\bin\Debug\net8.0\BusinessObjects.pdb
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\obj\Debug\net8.0\Repositories.dll
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\obj\Debug\net8.0\Repositories.pdb
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\obj\Debug\net8.0\Repositories.genruntimeconfig.cache
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\Repositories\obj\Debug\net8.0\ref\Repositories.dll

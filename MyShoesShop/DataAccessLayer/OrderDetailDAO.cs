@@ -4,11 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BusinessObjects;
+using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer
 {
     public class OrderDetailDAO
     {
+        public static List<OrderDetail> GetOrderDetails()
+        {
+            using var context = new MyShoesShopContext();
+            return context.OrderDetails.AsNoTracking().ToList();
+        }
+
         public static void UpdateOrderDetail(OrderDetail orderDetail)
         {
             try

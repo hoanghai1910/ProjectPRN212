@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD:MyShoesShop/BusinessObjects/obj/BusinessObjects.csproj.nuget.dgspec.json
     "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObjects\\BusinessObjects.csproj": {}
   },
   "projects": {
@@ -12,9 +13,26 @@
         "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObjects\\BusinessObjects.csproj",
         "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObjects\\obj\\",
+=======
+    "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj": {}
+  },
+  "projects": {
+    "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj",
+        "projectName": "BusinessObjects",
+        "projectPath": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\phoan\\.nuget\\packages\\",
+        "outputPath": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\BusinessObject\\obj\\",
+>>>>>>> 5aad18a08b75a4f4f8e7d9e7bfb22058b74b6c87:MyShoesShop/BusinessObject/obj/BusinessObjects.csproj.nuget.dgspec.json
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\phoan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +40,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

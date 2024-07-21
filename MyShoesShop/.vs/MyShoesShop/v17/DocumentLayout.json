@@ -1,12 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MSI\\OneDrive\\M\u00E1y t\u00EDnh\\ProjectPRN212\\MyShoesShop\\",
+  "WorkspaceRootPath": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|c:\\users\\msi\\onedrive\\m\u00E1y t\u00EDnh\\projectprn212\\myshoesshop\\wpfapp\\shoesadminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\shoesadminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\wpfapp\\updateorderdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\updateorderdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|C:\\Users\\MSI\\OneDrive\\M\u00E1y t\u00EDnh\\ProjectPRN212\\MyShoesShop\\wpfapp\\shoesadminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\shoesadminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -101,6 +102,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{6ACF6629-BFEC-474A-8E5B-14C44521182E}|Repositories\\Repositories.csproj|C:\\Users\\MSI\\OneDrive\\M\u00E1y t\u00EDnh\\ProjectPRN212\\MyShoesShop\\repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6ACF6629-BFEC-474A-8E5B-14C44521182E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+=======
+      "AbsoluteMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|c:\\fu\\c\\project_prn211\\projectprn212\\myshoesshop\\wpfapp\\checkoutwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\checkoutwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\wpfapp\\manageorderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9493D8-2123-435F-82DA-63DB656BACF4}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\manageorderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4802339-4935-45F8-A23A-A60554754CFD}|DataAccessLayer\\DataAccessLayer.csproj|C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\dataaccesslayer\\myshoesshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4802339-4935-45F8-A23A-A60554754CFD}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\myshoesshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACF6629-BFEC-474A-8E5B-14C44521182E}|Repositories\\Repositories.csproj|c:\\fu\\c\\project_prn211\\projectprn212\\myshoesshop\\repositories\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACF6629-BFEC-474A-8E5B-14C44521182E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4802339-4935-45F8-A23A-A60554754CFD}|DataAccessLayer\\DataAccessLayer.csproj|c:\\fu\\c\\project_prn211\\projectprn212\\myshoesshop\\dataaccesslayer\\orderdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4802339-4935-45F8-A23A-A60554754CFD}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\orderdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4802339-4935-45F8-A23A-A60554754CFD}|DataAccessLayer\\DataAccessLayer.csproj|c:\\fu\\c\\project_prn211\\projectprn212\\myshoesshop\\dataaccesslayer\\orderdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4802339-4935-45F8-A23A-A60554754CFD}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\orderdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF9BF72-D85F-46D2-B74E-CA9503C1AD9A}|BusinessObject\\BusinessObjects.csproj|C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\businessobject\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EF9BF72-D85F-46D2-B74E-CA9503C1AD9A}|BusinessObject\\BusinessObjects.csproj|solutionrelative:businessobject\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 5aad18a08b75a4f4f8e7d9e7bfb22058b74b6c87
     }
   ],
   "DocumentGroupContainers": [
@@ -110,6 +139,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -148,10 +178,26 @@
               "ViewState": "AQIAACwAAAAAAAAAAAAwwF0AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T11:49:04.662Z",
+=======
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderDetailDAO.cs",
+              "DocumentMoniker": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\OrderDetailDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\OrderDetailDAO.cs",
+              "ToolTip": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\OrderDetailDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\OrderDetailDAO.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T12:50:49.656Z",
+>>>>>>> 5aad18a08b75a4f4f8e7d9e7bfb22058b74b6c87
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 14,
               "Title": "RegisterDialog.xaml.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\OneDrive\\M\u00E1y t\u00EDnh\\ProjectPRN212\\MyShoesShop\\WPFApp\\RegisterDialog.xaml.cs",
@@ -172,10 +218,22 @@
               "RelativeToolTip": "WPFApp\\ShoesAdminWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-21T11:43:33.856Z",
+=======
+              "DocumentIndex": 4,
+              "Title": "OrderDetailRepository.cs",
+              "DocumentMoniker": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\Repositories\\OrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\OrderDetailRepository.cs",
+              "ToolTip": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\Repositories\\OrderDetailRepository.cs",
+              "RelativeToolTip": "Repositories\\OrderDetailRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T12:50:53.64Z",
+>>>>>>> 5aad18a08b75a4f4f8e7d9e7bfb22058b74b6c87
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 10,
               "Title": "LoginWindow.xaml",
               "DocumentMoniker": "C:\\Users\\MSI\\OneDrive\\M\u00E1y t\u00EDnh\\ProjectPRN212\\MyShoesShop\\WPFApp\\LoginWindow.xaml",
@@ -268,10 +326,23 @@
               "ViewState": "AQIAABYAAAAAAAAAAAAcwAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T09:54:14.972Z"
+=======
+              "DocumentIndex": 1,
+              "Title": "CheckoutWindow.xaml.cs",
+              "DocumentMoniker": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\WPFApp\\CheckoutWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPFApp\\CheckoutWindow.xaml.cs",
+              "ToolTip": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\WPFApp\\CheckoutWindow.xaml.cs",
+              "RelativeToolTip": "WPFApp\\CheckoutWindow.xaml.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwDoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T12:47:08.018Z",
+              "EditorCaption": ""
+>>>>>>> 5aad18a08b75a4f4f8e7d9e7bfb22058b74b6c87
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+<<<<<<< HEAD
               "Title": "MainCustomerWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\OneDrive\\M\u00E1y t\u00EDnh\\ProjectPRN212\\MyShoesShop\\WPFApp\\MainCustomerWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPFApp\\MainCustomerWindow.xaml.cs",
@@ -280,10 +351,21 @@
               "ViewState": "AQIAABUAAAAAAAAAAAAAACYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T09:53:52.216Z",
+=======
+              "Title": "OrderDAO.cs",
+              "DocumentMoniker": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\OrderDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\OrderDAO.cs",
+              "ToolTip": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\OrderDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\OrderDAO.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T12:22:24.558Z",
+>>>>>>> 5aad18a08b75a4f4f8e7d9e7bfb22058b74b6c87
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 13,
               "Title": "MainAdminWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\OneDrive\\M\u00E1y t\u00EDnh\\ProjectPRN212\\MyShoesShop\\WPFApp\\MainAdminWindow.xaml.cs",
@@ -342,10 +424,22 @@
               "ViewState": "AQIAAAIAAAAAAAAAAADwvxoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T09:52:26.422Z",
+=======
+              "DocumentIndex": 3,
+              "Title": "MyShoesShopContext.cs",
+              "DocumentMoniker": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\MyShoesShopContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\MyShoesShopContext.cs",
+              "ToolTip": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\MyShoesShopContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\MyShoesShopContext.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAqwDAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T10:08:55.887Z",
+>>>>>>> 5aad18a08b75a4f4f8e7d9e7bfb22058b74b6c87
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 21,
               "Title": "ShoeDAO.cs",
               "DocumentMoniker": "C:\\Users\\MSI\\OneDrive\\M\u00E1y t\u00EDnh\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\ShoeDAO.cs",
@@ -367,10 +461,22 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T09:45:51.252Z",
+=======
+              "DocumentIndex": 7,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\BusinessObject\\Order.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Order.cs",
+              "ToolTip": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\BusinessObject\\Order.cs",
+              "RelativeToolTip": "BusinessObject\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T10:03:20.523Z",
+>>>>>>> 5aad18a08b75a4f4f8e7d9e7bfb22058b74b6c87
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 24,
               "Title": "Repositories",
               "DocumentMoniker": "C:\\Users\\MSI\\OneDrive\\M\u00E1y t\u00EDnh\\ProjectPRN212\\MyShoesShop\\Repositories\\Repositories.csproj",
@@ -416,6 +522,31 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T09:13:39.859Z"
+=======
+              "DocumentIndex": 0,
+              "Title": "UpdateOrderDialog.xaml.cs",
+              "DocumentMoniker": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\WPFApp\\UpdateOrderDialog.xaml.cs",
+              "RelativeDocumentMoniker": "WPFApp\\UpdateOrderDialog.xaml.cs",
+              "ToolTip": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\WPFApp\\UpdateOrderDialog.xaml.cs",
+              "RelativeToolTip": "WPFApp\\UpdateOrderDialog.xaml.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAIwGsAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T09:23:35.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageOrderWindow.xaml.cs",
+              "DocumentMoniker": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\WPFApp\\ManageOrderWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPFApp\\ManageOrderWindow.xaml.cs",
+              "ToolTip": "C:\\FU\\C\\Project_PRN211\\ProjectPRN212\\MyShoesShop\\WPFApp\\ManageOrderWindow.xaml.cs",
+              "RelativeToolTip": "WPFApp\\ManageOrderWindow.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAcwFMAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T07:03:52.642Z",
+              "EditorCaption": ""
+>>>>>>> 5aad18a08b75a4f4f8e7d9e7bfb22058b74b6c87
             }
           ]
         }

@@ -36,3 +36,22 @@ C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\DataAccessLayer\obj\D
 C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
 C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
 C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\bin\Debug\net8.0\appsettings.json
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.dll
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.pdb
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+C:\FU\C\Project_PRN211\ProjectPRN212\MyShoesShop\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
