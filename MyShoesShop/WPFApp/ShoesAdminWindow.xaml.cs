@@ -53,6 +53,7 @@ namespace WPFApp
                     Size = decimal.Parse(txtShoesSize.Text),
                     BrandId = Int32.Parse(cboBrand.SelectedValue.ToString()),
                     CategoryId = Int32.Parse(cboCategory.SelectedValue.ToString()),
+                    Url = txtUrl.Text,
                 };
                 shoeRepository.AddShoe(shoe);
 
@@ -85,6 +86,7 @@ namespace WPFApp
                         shoe.Size = decimal.Parse(txtShoesSize.Text);
                         shoe.BrandId = Int32.Parse(cboBrand.SelectedValue.ToString());
                         shoe.CategoryId = Int32.Parse(cboCategory.SelectedValue.ToString());
+                        shoe.Url = txtUrl.Text;
                         shoeRepository.UpdateShoe(shoe);
                     }
                     else
@@ -142,6 +144,7 @@ namespace WPFApp
                 txtShoesStockQuantity.Text = select.StockQuantity.ToString();
                 cboBrand.SelectedValue = select.BrandId;
                 cboCategory.SelectedValue = select.CategoryId;
+                txtUrl.Text = select.Url?.ToString();
             }
         }
 

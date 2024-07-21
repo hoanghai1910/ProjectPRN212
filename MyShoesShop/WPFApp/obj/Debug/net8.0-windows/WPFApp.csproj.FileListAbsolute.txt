@@ -218,7 +218,6 @@ C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\WPFApp\bin\Debug\net8
 C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\WPFApp\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
 C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\WPFApp\bin\Debug\net8.0-windows\System.Memory.Data.dll
 C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\WPFApp\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
-C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\WPFApp\bin\Debug\net8.0-windows\System.Text.Json.dll
 C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\WPFApp\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\WPFApp\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\MSI\OneDrive\Máy tính\ProjectPRN212\MyShoesShop\WPFApp\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll

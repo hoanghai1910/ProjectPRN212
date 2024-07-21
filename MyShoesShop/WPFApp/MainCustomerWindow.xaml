@@ -40,38 +40,48 @@
                                 <RowDefinition Height="Auto"/>
                                 <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
 
-                            <TextBlock Text="{Binding ShoesName}" FontWeight="Bold" FontSize="18" Grid.Row="0"/>
+                            <TextBlock Text="{Binding ShoesName}" FontWeight="Bold" FontSize="18" Grid.Row="0" Grid.Column="0"/>
 
-                            <StackPanel Grid.Row="1" Margin="0,5">
+                            <StackPanel Grid.Row="1" Margin="0,5" Grid.Column="0">
                                 <TextBlock Text="Brand:" FontWeight="Bold"/>
                                 <TextBlock Text="{Binding Brand.BrandName}"/>
                             </StackPanel>
 
-                            <StackPanel Grid.Row="2" Margin="0,5">
+                            <StackPanel Grid.Row="2" Margin="0,5" Grid.Column="0">
                                 <TextBlock Text="Category:" FontWeight="Bold"/>
                                 <TextBlock Text="{Binding Category.CategoryName}"/>
                             </StackPanel>
 
-                            <StackPanel Grid.Row="3" Margin="0,5">
+                            <StackPanel Grid.Row="3" Margin="0,5" Grid.Column="0">
                                 <TextBlock Text="Color:" FontWeight="Bold"/>
                                 <TextBlock Text="{Binding Color}"/>
                             </StackPanel>
 
-                            <StackPanel Grid.Row="4" Margin="0,5">
+                            <StackPanel Grid.Row="4" Margin="0,5" Grid.Column="0">
                                 <TextBlock Text="Size:" FontWeight="Bold"/>
                                 <TextBlock Text="{Binding Size, StringFormat='{}{0:F2}'}"/>
                             </StackPanel>
 
-                            <StackPanel Grid.Row="5" Margin="0,5">
+                            <StackPanel Grid.Row="5" Margin="0,5" Grid.Column="0">
                                 <TextBlock Text="Price:" FontWeight="Bold"/>
                                 <TextBlock Text="{Binding Price, StringFormat='{}${0:F2}'}"/>
                             </StackPanel>
 
-                            <StackPanel Grid.Row="6" Margin="0,5">
+                            <StackPanel Grid.Row="6" Margin="0,5" Grid.Column="0">
                                 <TextBlock Text="Stock Quantity:" FontWeight="Bold"/>
                                 <TextBlock Text="{Binding StockQuantity}"/>
                             </StackPanel>
+
+                            <StackPanel Grid.RowSpan="6" Grid.Row="1" Margin="0,5" Grid.Column="1">
+                                <TextBlock Text="Image:" FontWeight="Bold"/>
+                                <Image Source="{Binding Url}" MinWidth="300" MaxWidth="300" MinHeight="300" MaxHeight="300" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </StackPanel>
+                            
                         </Grid>
                     </Border>
                 </DataTemplate>

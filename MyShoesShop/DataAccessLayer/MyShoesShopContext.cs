@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using BusinessObjects;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-
+using BusinessObjects;
 namespace DataAccessLayer;
-
 public partial class MyShoesShopContext : DbContext
 {
     public MyShoesShopContext()
@@ -29,6 +27,9 @@ public partial class MyShoesShopContext : DbContext
 
     public virtual DbSet<Shoe> Shoes { get; set; }
 
+    //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+    //        => optionsBuilder.UseSqlServer("Server=HOANGHAI\\MSSQLSERVER01;Database=MyShoesShop;Uid=sa;Pwd=123;TrustServerCertificate=True");
     private string GetConnectionString()
     {
         IConfiguration configuration = new ConfigurationBuilder()
@@ -41,13 +42,11 @@ public partial class MyShoesShopContext : DbContext
     {
         optionsBuilder.UseSqlServer(GetConnectionString());
     }
-
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Brand>(entity =>
         {
-            entity.HasKey(e => e.BrandId).HasName("PK__Brand__DAD4F3BE918446DA");
+            entity.HasKey(e => e.BrandId).HasName("PK__Brand__DAD4F3BEEEAD66C3");
 
             entity.ToTable("Brand");
 
@@ -57,7 +56,7 @@ public partial class MyShoesShopContext : DbContext
 
         modelBuilder.Entity<Category>(entity =>
         {
-            entity.HasKey(e => e.CategoryId).HasName("PK__Category__19093A2B5B282D8F");
+            entity.HasKey(e => e.CategoryId).HasName("PK__Category__19093A2BE60324FA");
 
             entity.ToTable("Category");
 
@@ -67,7 +66,7 @@ public partial class MyShoesShopContext : DbContext
 
         modelBuilder.Entity<Customer>(entity =>
         {
-            entity.HasKey(e => e.CustomerId).HasName("PK__Customer__A4AE64B8AF3DC28D");
+            entity.HasKey(e => e.CustomerId).HasName("PK__Customer__A4AE64B819A4C382");
 
             entity.ToTable("Customer");
 
@@ -81,7 +80,7 @@ public partial class MyShoesShopContext : DbContext
 
         modelBuilder.Entity<Order>(entity =>
         {
-            entity.HasKey(e => e.OrderId).HasName("PK__Order__C3905BAF5AEF13F8");
+            entity.HasKey(e => e.OrderId).HasName("PK__Order__C3905BAF4B98FA52");
 
             entity.ToTable("Order");
 
@@ -96,7 +95,7 @@ public partial class MyShoesShopContext : DbContext
 
         modelBuilder.Entity<OrderDetail>(entity =>
         {
-            entity.HasKey(e => new { e.OrderId, e.ShoesId }).HasName("PK__OrderDet__7083FC0FE38128CA");
+            entity.HasKey(e => new { e.OrderId, e.ShoesId }).HasName("PK__OrderDet__7083FC0F333E2DFC");
 
             entity.ToTable("OrderDetail");
 
@@ -116,7 +115,7 @@ public partial class MyShoesShopContext : DbContext
 
         modelBuilder.Entity<Shoe>(entity =>
         {
-            entity.HasKey(e => e.ShoesId).HasName("PK__Shoes__313A7A0AA63211C1");
+            entity.HasKey(e => e.ShoesId).HasName("PK__Shoes__313A7A0A377167D4");
 
             entity.Property(e => e.ShoesId).HasColumnName("ShoesID");
             entity.Property(e => e.BrandId).HasColumnName("BrandID");
@@ -124,6 +123,9 @@ public partial class MyShoesShopContext : DbContext
             entity.Property(e => e.Color).HasMaxLength(20);
             entity.Property(e => e.ShoesName).HasMaxLength(100);
             entity.Property(e => e.Size).HasColumnType("decimal(10, 2)");
+            entity.Property(e => e.Url)
+                .HasMaxLength(255)
+                .HasColumnName("URL");
 
             entity.HasOne(d => d.Brand).WithMany(p => p.Shoes)
                 .HasForeignKey(d => d.BrandId)

@@ -4,14 +4,14 @@
     "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\Repositories\\Repositories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj": {
+    "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObjects\\BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj",
+        "projectUniqueName": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObjects\\BusinessObjects.csproj",
         "projectName": "BusinessObjects",
-        "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj",
+        "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObjects\\BusinessObjects.csproj",
         "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObject\\obj\\",
+        "outputPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,11 +49,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -108,8 +108,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj": {
-                "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj"
+              "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObjects\\BusinessObjects.csproj"
               }
             }
           }
@@ -133,11 +133,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -192,8 +192,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj": {
-                "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObject\\BusinessObjects.csproj"
+              "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\BusinessObjects\\BusinessObjects.csproj"
               },
               "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\DataAccessLayer.csproj": {
                 "projectPath": "C:\\Users\\MSI\\OneDrive\\Máy tính\\ProjectPRN212\\MyShoesShop\\DataAccessLayer\\DataAccessLayer.csproj"
@@ -220,11 +220,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",

@@ -58,10 +58,10 @@ namespace WPFApp
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            CustomerNameTextBox.Text = sessionCustomer.CustomerName.ToString();
-            EmailTextBox.Text = sessionCustomer.Email.ToString();
-            PhoneNumberTextBox.Text = sessionCustomer.PhoneNumber.ToString();
-            AddressTextBox.Text = sessionCustomer.Address.ToString();
+            CustomerNameTextBox.Text = sessionCustomer.CustomerName?.ToString();
+            EmailTextBox.Text = sessionCustomer.Email?.ToString();
+            PhoneNumberTextBox.Text = sessionCustomer.PhoneNumber?.ToString();
+            AddressTextBox.Text = sessionCustomer.Address?.ToString();
             
             
         }
@@ -84,6 +84,13 @@ namespace WPFApp
         {
             MainCustomerWindow mainCustomerWindow = new MainCustomerWindow(sessionCustomer);
             mainCustomerWindow.Show();
+            this.Close();
+        }
+
+        private void ViewOrderHistory_Click(object sender, RoutedEventArgs e)
+        {
+            UpdateProfile updateProfile = new UpdateProfile(sessionCustomer);
+            updateProfile.Show();
             this.Close();
         }
     }
