@@ -94,10 +94,6 @@ public partial class MyShoesShopContext : DbContext
                 .HasForeignKey(d => d.CustomerId)
                 .HasConstraintName("FK__Order__CustomerI__412EB0B6");
 
-            //entity.HasMany(o => OrderDetails)
-            //.WithOne(od => od.Order)
-            //.HasForeignKey(od => od.OrderId)
-            //.OnDelete(DeleteBehavior.Cascade);
         });
 
         modelBuilder.Entity<OrderDetail>(entity =>

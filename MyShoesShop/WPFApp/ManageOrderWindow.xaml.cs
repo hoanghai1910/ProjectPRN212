@@ -81,7 +81,7 @@ namespace WPFApp
                     MessageBox.Show("Please select a Order!");
                 }
         }
-            catch (Exception ex) { MessageBox.Show("Cannot update Customer"); }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
 
             finally { LoadOrders(); }
 

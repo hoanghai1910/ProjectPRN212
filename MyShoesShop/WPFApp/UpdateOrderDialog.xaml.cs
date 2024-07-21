@@ -74,10 +74,12 @@ namespace WPFApp
                 {
                     var detail = new OrderDetail()
                     {
+                        OrderId = order.OrderId,
                         ShoesId = shoeID,
                         Quantity = quan,
                         Price = quan * shoe.Price
                     };
+                    _ODR.AddOrderDetail(detail);
                     order.OrderDetails.Add(detail);
                     order.TotalAmount += detail.Price;
                     updateShoes(shoeID, -1 * quan);
@@ -102,8 +104,11 @@ namespace WPFApp
                 if (!string.IsNullOrEmpty(id.ToString()))
                 {
                     OrderDetail detail = order.OrderDetails.FirstOrDefault(detail => detail.ShoesId == id);
+                    detail.OrderId = int.MaxValue;
                     order.OrderDetails.Remove(detail);
+
                     order.TotalAmount -= detail.Price;
+                    _ODR.DeleteOrderDetail(detail);
                     updateShoes(detail.ShoesId, detail.Quantity);
                 }
                 else
